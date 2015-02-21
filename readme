@@ -1,0 +1,5 @@
+The file run_analysis.R contains R code that can be used to merge the train and test datasets. The code must be run when in a directory that is one level above the sub-directories of test and train. 
+
+The code will read in the x_test and x_train data files. It will extract the variables that have "Mean" or "std" anywhere in their name, and it will compute the mean of each set of variables. That is, it will create one variable with a mean of all the variables with "Mean" in their name, and a second variable with a mean of all the variables with "std" in their name. 
+
+The resulting data file (named "tidy.txt") will have one row for each participant for each activity. 
