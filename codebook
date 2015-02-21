@@ -1,0 +1,9 @@
+The tidy data file will have four variables:
+
+"subject_num": the number of the participant, which is unique for each participant in the study
+
+"test_label": the name of the activity on which the participant was tested
+
+"Mean": the average of all the variables with "mean" in the name
+
+"std": the avarage of all the variables with "std" in the name
